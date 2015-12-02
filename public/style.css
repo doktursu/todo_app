@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  font-family: sans-serif;
+  padding: 20px 30px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+a:active {
+  color: #4CFFBD;
+}
+
+.btn-options {
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid #eee;
+}
+
+.btn-options:hover {
+  background-color: #eee;
+}
+
+.btn-options:active {
+  background-color: #ddd;
+}
+
+
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.primary-header {
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 42px;
+  font-weight: 200;
+  padding: 4px 0;
+  margin-bottom: 20px;
+  margin-right: 14px;
+  margin-left: -5px;
+  float: left;
+}
+
+.nav li{
+  display: inline-block;
+  margin: 20px 0px 0 7px;
+  vertical-align: bottom;
+}
+
+.nav li:last-child{
+}
+
+.nav a {
+  font-size: 18px;
+  font-weight: 100px;
+  padding: 5px 10px;
+  color: #322222;
+}
+
+.nav a:hover {
+  color: #888;
+}
+
+.nav a:active {
+  color: #444;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: 200;
+  padding: 4px 0;
+  margin-bottom: 20px;
+  margin-left: 14px;
+}
+
+/*
+  ========================================
+  Tasks
+  ========================================
+*/
+
+.task {
+  border: 2px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  width: 340px;
+  height: 150px;
+  position: relative;
+}
+
+.task-title {
+  color: #222;
+  border: none;
+  border-bottom: 3px solid #ddd;
+  padding-right: 85px;
+  font-size: 24px;
+  font-weight: 300;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+.task-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
+  font-weight: 200;
+  width: 285px;
+  height: 110px;
+  border: none;
+  color: #800000;
+  resize: none;
+}
+
+h2.task-title:hover {
+  color: #ccc;
+}
+h2.task-title:active {
+  color: #bbb;
+}
+
+.task-title:focus,
+.task-details:focus {
+  outline: 0;
+  background-color: #fefefe;
+}
+
+.btn-options {
+  height: 75px;
+  width: 75px;
+  position: absolute;
+  right: 7.5px;
+  border-radius: 50%;
+}
+
+.edit {
+  top: 7.5px;
+/*  background-color: #00B271;*/
+/*  background-color: #fff;*/
+}
+
+.delete {
+  bottom: 7.5px;
+/*  background-color: #1F664C;*/
+/*  background-color: #fff;*/
+}
+
+.push {
+  color: #800000;
+  border: 2px solid #800000;
+}
+
+/*
+  ========================================
+  New
+  ========================================
+*/
+
+

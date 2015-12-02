@@ -1,0 +1,16 @@
+/*
+  ========================================
+  RESPONSIVE
+  ========================================
+*/
+
+@media screen and (max-width: 435px) {
+   body {
+/*     background-color: black;*/
+padding: 13.2px;
+   }
+
+   .logo {
+     margin-left: 0;
+     margin-right: 10px;
+}

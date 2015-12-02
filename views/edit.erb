@@ -1,0 +1,12 @@
+<h3>Edit Task</h3>
+
+<form class="task" action="/tasks/<%= @id %>" method="post">
+  <fieldset>
+
+    <input class="task-title" type="text" name="name" placeholder="Task" value="<%= @name %>" autocomplete="off">
+
+    <textarea class="task-details" name="details" placeholder="Details"><%= @details %></textarea>
+
+  </fieldset>
+  <button class="btn-options delete push">Save</button>
+</form>

@@ -1,0 +1,10 @@
+<h3>Task #<%= @id %></h3>
+
+<div class="task">
+  <h4 class="task-title"><%= @name %></h4>
+  <p class="task-details"><%= @details %></p>
+  <a  href="/tasks/<%= @id %>/edit"><button class="btn-options edit">Edit</button></a>
+  <form action="/tasks/<%= @id %>/delete" method="post">
+    <input class="btn-options delete" type="submit" value="Delete">
+  </form>
+</div>

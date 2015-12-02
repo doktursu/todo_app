@@ -1,0 +1,15 @@
+<h3>All Tasks</h3>
+
+
+<% if @tasks %>
+  <% @tasks.each do |task| %>
+    <div class="task">
+      <a href="/tasks/<%= task["id"] %>"><h2 class="task-title"><%= task["name"] %></h2></a>
+      <p class="task-details"><%= task["details"] %></p>
+      <a href="/tasks/<%= task["id"] %>/edit"><button class="btn-options edit">Edit</button></a>
+      <form action="/tasks/<%= task["id"] %>/delete" method="post">
+        <button class="btn-options delete">Delete</button>
+      </form>
+    </div>
+  <% end %>
+<% end %>
